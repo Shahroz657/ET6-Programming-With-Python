@@ -49,34 +49,34 @@ Markdown locally on your own computer using Visual Studio Code (VSCode), the
 Command Line Interface (CLI) to automate your code's quality
 (formatting, linting and spell checking).
 
-- [ ] 🥚 **Folder Structures**: You can explain how files and folders are stored
+- [x] 🥚 **Folder Structures**: You can explain how files and folders are stored
       in your computer and can find, open or create files in your computer
       without using the Command Line Interface.
 - 🥚 **Command Line Interface (CLI)**: In a Unix shell you can ...
-  - [ ] Open a new terminal window
-  - [ ] Navigate up and down directories using `cd`
-  - [ ] List the contents of a directory using `ls`
-  - [ ] View the contents of a file using `cat`
-  - [ ] Create new files using `touch`
-  - [ ] Create new folders using `mkdir`
-- [ ] 🥚 **READMEs**: You can write a README file that describes the project you
+  - [x] Open a new terminal window
+  - [x] Navigate up and down directories using `cd`
+  - [x] List the contents of a directory using `ls`
+  - [x] View the contents of a file using `cat`
+  - [x] Create new files using `touch`
+  - [x] Create new folders using `mkdir`
+- [x] 🥚 **READMEs**: You can write a README file that describes the project you
       are working on, why it's helpful, and how someone can use it.
 - 🥚 **Formatting Markdown**: You can use Prettier to make sure all the code in
   your project is well-formatted:
 - 🥚 **Linting Folder and File Names**: You can ...
-  - [ ] Use `ls-lint` to check all folder and file names in your project
-  - [ ] You can fix all linting mistakes reported by `ls-lint`
+  - [x] Use `ls-lint` to check all folder and file names in your project
+  - [x] You can fix all linting mistakes reported by `ls-lint`
 - 🥚 **Linting Markdown**: You can use the MarkdownLint VSCode extension to find
   and fix linting errors in markdown documents.
-  - [ ] 🥚 **Spell Check**: You can use the Code Spell Checker VSCode extension
+  - [x] 🥚 **Spell Check**: You can use the Code Spell Checker VSCode extension
         to correct spelling mistakes in your Markdown documents while you are
         writing
-- [ ] 🥚 **File and Folder Naming Conventions**: You can use _snake_case_ to
+- [x] 🥚 **File and Folder Naming Conventions**: You can use _snake_case_ to
       name all files and folders in your project.
-- [ ] 🐣 **File Extensions**: You can identify all of the languages covered at
+- [x] 🐣 **File Extensions**: You can identify all of the languages covered at
       HYF and give the correct file extension. You don't need to know the
       languages, just recognize them.
-- [ ] 🐣 **Touch Typing**: You can write a Markdown file without looking at your
+- [x] 🐣 **Touch Typing**: You can write a Markdown file without looking at your
       keyboard to find any letters, numbers or special characters. (slowly is
       ok!)
 
@@ -87,45 +87,45 @@ how you can use Git to go back to previous versions of your project, and to work
 on different changes in parallel.
 
 - 🥚 **Git**: Using the CLI you can ...
-  - [ ] Initialize a new git repository with `git init`
-  - [ ] Stage changes using `git add <path>`
-  - [ ] Check what is staged with `git status`
-  - [ ] Commit changes using `git commit -m <message>`
-  - [ ] Display your repository's git history using `git log`
-  - [ ] Create a new branch using `git branch <branch-name>`
-  - [ ] Check out a branch using `git checkout <branch-name>`
-  - [ ] Create a new branch and check it out using
+  - [x] Initialize a new git repository with `git init`
+  - [x] Stage changes using `git add <path>`
+  - [x] Check what is staged with `git status`
+  - [x] Commit changes using `git commit -m <message>`
+  - [x] Display your repository's git history using `git log`
+  - [x] Create a new branch using `git branch <branch-name>`
+  - [x] Check out a branch using `git checkout <branch-name>`
+  - [x] Create a new branch and check it out using
         `git checkout -b <branch-name>`
-  - [ ] Merge changes from one branch to another using `git merge <branch-name>`
-  - [ ] Update current branch (your branch) from _main_ branch:
-    - [ ] Check out to _main_ branch using `git checkout main`
-    - [ ] Pull changes from remote repository using `git pull`
-    - [ ] Check out to your branch using `git checkout <branch-name>`
-    - [ ] Merge changes from _main_ branch to your branch using `git merge main`
-  - [ ] Merge changes from _main_ branch to current branch in one step using
+  - [x] Merge changes from one branch to another using `git merge <branch-name>`
+  - [x] Update current branch (your branch) from _main_ branch:
+    - [x] Check out to _main_ branch using `git checkout main`
+    - [x] Pull changes from remote repository using `git pull`
+    - [x] Check out to your branch using `git checkout <branch-name>`
+    - [x] Merge changes from _main_ branch to your branch using `git merge main`
+  - [x] Merge changes from _main_ branch to current branch in one step using
         `git pull origin main`
-  - [ ] Return to a previous version of your project with `git log` and
+  - [x] Return to a previous version of your project with `git log` and
         `git checkout <commit-hash>`
-  - [ ] Stash and retrieve uncommitted changes with `git stash` and `git pop`
-  - [ ] Display list of existing remote URLs using `git remote -v`
-  - [ ] Add a new remote repository URL using
+  - [x] Stash and retrieve uncommitted changes with `git stash` and `git pop`
+  - [x] Display list of existing remote URLs using `git remote -v`
+  - [x] Add a new remote repository URL using
         `git remote add <shortname> <remote-url>`
-  - [ ] Update a remote repository URL using
+  - [x] Update a remote repository URL using
         `git remote set-url <exsit-shortname> <new-remote-url>`
-  - [ ] Rename a remote repository URL using
+  - [x] Rename a remote repository URL using
         `git remote rename <old-shortname> <new-shortname>`
-  - [ ] Remove a remote repository URL using `git remote rm <exsit-shortname>`
+  - [x] Remove a remote repository URL using `git remote rm <exsit-shortname>`
 - 🥚 **`.gitignore`**: You can use a `.gitignore` file to describe which files
   you don't want included in your git history.
 - 🥚 **VSCode**: You can ...
-  - [ ] Use the _Git Graph_ extension to to visualize your repo's commit history
-  - [ ] Use the _Git Lens_ extension to investigate your repository's commit
+  - [x] Use the _Git Graph_ extension to to visualize your repo's commit history
+  - [x] Use the _Git Lens_ extension to investigate your repository's commit
         history
-  - [ ] Explain how the file tree in VSCode can show you which files have
+  - [x] Explain how the file tree in VSCode can show you which files have
         uncommitted changes
-- [ ] 🥚 **Atomic Commits**: You can save your development progress using small
+- [x] 🥚 **Atomic Commits**: You can save your development progress using small
       commits with clear and helpful message.
-- [ ] 🐣 **Feature Branches**: You can organize your development process using
+- [x] 🐣 **Feature Branches**: You can organize your development process using
       branches. You can create a new branch for each part of your project and
       merge those changes to `main` when they are finished.
 
@@ -135,43 +135,43 @@ Learn how you can connect your local Git repositories with a GitHub repository
 to add more structure to your development process and to share your projects.
 
 - 🥚 **Licenses**: You can ...
-  - [ ] Explain why it's important to include a license for your code on GitHub
-  - [ ] Choose a license for your projects that matches how you want others to
+  - [x] Explain why it's important to include a license for your code on GitHub
+  - [x] Choose a license for your projects that matches how you want others to
         use your code
-- [ ] 🥚 **Contributor Guidelines**: You can explain why contributor guidelines
+- [x] 🥚 **Contributor Guidelines**: You can explain why contributor guidelines
       are important for a public repository.
-- [ ] 🥚 **Code of Conduct**: You can explain why a code of conduct is important
+- [x] 🥚 **Code of Conduct**: You can explain why a code of conduct is important
       for a public repository.
-- [ ] 🥚 **GitHub SSH Key**: You can connect your computer to your GitHub
+- [x] 🥚 **GitHub SSH Key**: You can connect your computer to your GitHub
       account using an SSH key, clone using the SSH link, and push/pull using
       your SSH connection.
 - 🥚 **GitHub Repositories**: You can ...
-  - [ ] Create new repository on GitHub
-  - [ ] Write a description for your repository
-  - [ ] Turn on GitHub Pages
-  - [ ] Configure your repository to block pushing to `main`
-  - [ ] Configure your repository to block merging to `main` until Continuous
+  - [x] Create new repository on GitHub
+  - [x] Write a description for your repository
+  - [x] Turn on GitHub Pages
+  - [x] Configure your repository to block pushing to `main`
+  - [x] Configure your repository to block merging to `main` until Continuous
         Integration (CI) checks have passed
 - 🥚 **Git Remote/Local Connection**: You can ...
-  - [ ] Clone a remote repository to your computer using
+  - [x] Clone a remote repository to your computer using
         `git clone <remote-url>`
-  - [ ] initialize a new repository locally and connect it to an empty remote
+  - [x] initialize a new repository locally and connect it to an empty remote
         repository
-  - [ ] `git push` command is used to upload local repository content to a
+  - [x] `git push` command is used to upload local repository content to a
         remote repository
-  - [ ] `git fetch` a primary command used to download contents from a remote
+  - [x] `git fetch` a primary command used to download contents from a remote
         repository
-  - [ ] `git pull` command downloads the changes directly and then applies those
+  - [x] `git pull` command downloads the changes directly and then applies those
         changes to the current working files
-  - [ ] `push` and `pull` changes between remote & local branches
-  - [ ] You can distinguish between `git fetch` and `git pull`
-- [ ] 🥚 **Pull Requests**: You can create a pull request between two branches
+  - [x] `push` and `pull` changes between remote & local branches
+  - [x] You can distinguish between `git fetch` and `git pull`
+- [x] 🥚 **Pull Requests**: You can create a pull request between two branches
       in your repository and merge changes without causing any conflicts.
-- [ ] 🥚 **PR templates**: You can use a PR template to add a checklist to all
+- [x] 🥚 **PR templates**: You can use a PR template to add a checklist to all
       of your PRs so you are sure the code is great before merging to `main`.
-- [ ] 🥚 **Continuous Integration**: You can use GitHub Actions to check your
+- [x] 🥚 **Continuous Integration**: You can use GitHub Actions to check your
       code's quality before merging a pull request to the `main` branch.
-- [ ] 🐣 **Local/Remote Branching Workflow**: You can use a branching workflow
+- [x] 🐣 **Local/Remote Branching Workflow**: You can use a branching workflow
       that keeps mistakes away from the `main` branch and prevents conflicts
       from happening in GitHub. For each contribution to the project you can ...
   1. Check out a new local branch and write your code
